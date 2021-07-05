@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 14px;
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 header{
@@ -22,4 +23,23 @@ ul{
 
 li{
     list-style: none;
+    height: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-icon{
+    background-image: url('../images/menu-icon.svg');
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.apps-icon{
+    background-image: url('../images/apps-icon.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
 }
