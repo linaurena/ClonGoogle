@@ -11,30 +11,28 @@ header{
     padding: 6px;
 }
 
-nav{
-    margin: 0.7rem 0;
-}
-
 ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 li{
     list-style: none;
-    height: 24px;
 }
 
 a{
     text-decoration: none;
+    color: #70757a;
 }
 
 .menu-icon{
     background-image: url('../images/menu-icon.svg');
     background-repeat: no-repeat;
-    height: 24px;
-    width: 24px;
+    background-position: center;
+    height: 18px;
+    width: 18px;
 }
 
 .apps-icon{
@@ -42,4 +40,15 @@ a{
     background-repeat: no-repeat;
     height: 16px;
     width: 16px;
+}
+
+.btn-login{
+    background-color: #1a73e8;
+    height: 35px;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+
+.btn-login a{
+    color: white;
 }
