@@ -103,3 +103,39 @@ input{
     font-size: small;
     color: #1967d2;
 }
+footer{
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    width: 100vw;
+    height: 16vh;
+}
+.location{
+    color: rgba(0,0,0,.54);
+    font-size: 16px;
+    margin: 8px 0px 8px 18px;
+}
+footer div{
+    text-align: center;
+    height: 100%;
+    border-top: 1px solid #dadce0;
+    padding-top: 1.25rem;
+}
+.circle{
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin: 6px 0px 9px 0;
+    vertical-align: middle;
+    width: 10px;
+    background: #70757a;
+}
+footer div a{
+    font-size: 13px;
+    color: #70757A;
+}
+footer div span{
+    color: #3c4043;
+    font-weight: bold;
+    font-size: 13px;
+}
